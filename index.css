@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-family: 'Tajawal', 'Arial', sans-serif;
+  }
+  
+  .rtl {
+    direction: rtl;
+  }
+}
+
+@layer components {
+  .card {
+    @apply bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300;
+  }
+  
+  .form-input {
+    @apply block w-full mt-1 px-4 py-2 bg-white border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-green-500;
+  }
+  
+  .form-select {
+    @apply block w-full mt-1 px-4 py-2 bg-white border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-green-500;
+  }
+  
+  .btn {
+    @apply px-4 py-2 font-medium rounded-md shadow-sm transition-colors duration-200;
+  }
+  
+  .btn-primary {
+    @apply bg-green-600 text-white hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2;
+  }
+  
+  .btn-secondary {
+    @apply bg-gray-100 text-gray-800 hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2;
+  }
+  
+  .btn-danger {
+    @apply bg-red-600 text-white hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-offset-2;
+  }
+  
+  .table-container {
+    @apply overflow-x-auto bg-white rounded-lg shadow-md my-6;
+  }
+  
+  .table {
+    @apply min-w-full divide-y divide-gray-200;
+  }
+  
+  .table th {
+    @apply px-6 py-3 bg-green-50 text-right text-xs font-medium text-gray-700 uppercase tracking-wider;
+  }
+  
+  .table td {
+    @apply px-6 py-4 whitespace-nowrap text-sm text-gray-800;
+  }
+  
+  .material-block {
+    @apply relative mb-4 p-4 bg-gray-50 rounded-lg border border-gray-200;
+  }
+}
+
+.result-container {
+  @apply mt-6 bg-green-50 p-6 rounded-lg border border-green-200;
+}
+
+.warning {
+  @apply mt-4 p-4 bg-yellow-50 border border-yellow-200 text-yellow-700 rounded-lg;
+}

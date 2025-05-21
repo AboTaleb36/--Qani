@@ -1,0 +1,368 @@
+export interface NRCData {
+  bw: number;
+  adg: number;
+  dmi: number;
+  tdn: number;
+  protein: number;
+}
+
+// This is a simplified subset of the NRC data
+// In a real application, this would be a complete dataset
+ if (gender === 'female' && pregnancyStatus === 'pregnant') {
+export const nrcData: NRCData[] = [
+ [
+  { bw: 300, adg: 0.3, dmi: 7.70, tdn: 56.50, protein: 954 },
+{ bw: 305, adg: 0.3, dmi: 7.79, tdn: 56.47, protein: 960.7 },
+{ bw: 310, adg: 0.3, dmi: 7.88, tdn: 56.44, protein: 967.4 },
+{ bw: 315, adg: 0.3, dmi: 7.97, tdn: 56.41, protein: 974.1 },
+{ bw: 320, adg: 0.3, dmi: 8.06, tdn: 56.38, protein: 980.8 },
+{ bw: 325, adg: 0.3, dmi: 8.15, tdn: 56.35, protein: 987.5 },
+{ bw: 330, adg: 0.3, dmi: 8.24, tdn: 56.32, protein: 994.2 },
+{ bw: 335, adg: 0.3, dmi: 8.33, tdn: 56.29, protein: 1000.9 },
+{ bw: 340, adg: 0.3, dmi: 8.42, tdn: 56.26, protein: 1007.6 },
+{ bw: 345, adg: 0.3, dmi: 8.51, tdn: 56.23, protein: 1014.3 },
+{ bw: 350, adg: 0.3, dmi: 8.60, tdn: 56.20, protein: 1021 },
+{ bw: 300, adg: 0.4, dmi: 7.70, tdn: 58.60, protein: 1003 },
+{ bw: 305, adg: 0.4, dmi: 7.79, tdn: 58.57, protein: 1009.4 },
+{ bw: 310, adg: 0.4, dmi: 7.88, tdn: 58.54, protein: 1015.8 },
+{ bw: 315, adg: 0.4, dmi: 7.97, tdn: 58.51, protein: 1022.2 },
+{ bw: 320, adg: 0.4, dmi: 8.06, tdn: 58.48, protein: 1028.6 },
+{ bw: 325, adg: 0.4, dmi: 8.15, tdn: 58.45, protein: 1035 },
+{ bw: 330, adg: 0.4, dmi: 8.24, tdn: 58.42, protein: 1041.4 },
+{ bw: 335, adg: 0.4, dmi: 8.33, tdn: 58.39, protein: 1047.8 },
+{ bw: 340, adg: 0.4, dmi: 8.42, tdn: 58.36, protein: 1054.2 },
+{ bw: 345, adg: 0.4, dmi: 8.51, tdn: 58.33, protein: 1060.6 },
+{ bw: 350, adg: 0.4, dmi: 8.60, tdn: 58.30, protein: 1072 },
+{ bw: 300, adg: 0.5, dmi: 7.70, tdn: 60.80, protein: 1050 },
+{ bw: 305, adg: 0.5, dmi: 7.79, tdn: 60.77, protein: 1056 },
+{ bw: 310, adg: 0.5, dmi: 7.88, tdn: 60.74, protein: 1062 },
+{ bw: 315, adg: 0.5, dmi: 7.97, tdn: 60.71, protein: 1068 },
+{ bw: 320, adg: 0.5, dmi: 8.06, tdn: 60.68, protein: 1074 },
+{ bw: 325, adg: 0.5, dmi: 8.15, tdn: 60.65, protein: 1080 },
+{ bw: 330, adg: 0.5, dmi: 8.24, tdn: 60.62, protein: 1086 },
+{ bw: 335, adg: 0.5, dmi: 8.33, tdn: 60.59, protein: 1092 },
+{ bw: 340, adg: 0.5, dmi: 8.42, tdn: 60.56, protein: 1098 },
+{ bw: 345, adg: 0.5, dmi: 8.51, tdn: 60.53, protein: 1104 },
+{ bw: 350, adg: 0.5, dmi: 8.60, tdn: 60.50, protein: 1120 },
+{ bw: 300, adg: 0.6, dmi: 7.70, tdn: 63.10, protein: 1094 },
+{ bw: 305, adg: 0.6, dmi: 7.79, tdn: 63.07, protein: 1100.6 },
+{ bw: 310, adg: 0.6, dmi: 7.88, tdn: 63.04, protein: 1107.2 },
+{ bw: 315, adg: 0.6, dmi: 7.97, tdn: 63.01, protein: 1113.8 },
+{ bw: 320, adg: 0.6, dmi: 8.06, tdn: 62.98, protein: 1120.4 },
+{ bw: 325, adg: 0.6, dmi: 8.15, tdn: 62.95, protein: 1127 },
+{ bw: 330, adg: 0.6, dmi: 8.24, tdn: 62.92, protein: 1133.6 },
+{ bw: 335, adg: 0.6, dmi: 8.33, tdn: 62.89, protein: 1140.2 },
+{ bw: 340, adg: 0.6, dmi: 8.42, tdn: 62.86, protein: 1146.8 },
+{ bw: 345, adg: 0.6, dmi: 8.51, tdn: 62.83, protein: 1153.4 },
+{ bw: 350, adg: 0.6, dmi: 8.60, tdn: 62.80, protein: 1166 },
+{ bw: 300, adg: 0.7, dmi: 7.70, tdn: 65.50, protein: 1138 },
+{ bw: 305, adg: 0.7, dmi: 7.79, tdn: 65.47, protein: 1143.6 },
+{ bw: 310, adg: 0.7, dmi: 7.88, tdn: 65.44, protein: 1149.2 },
+{ bw: 315, adg: 0.7, dmi: 7.97, tdn: 65.41, protein: 1154.8 },
+{ bw: 320, adg: 0.7, dmi: 8.06, tdn: 65.38, protein: 1160.4 },
+{ bw: 325, adg: 0.7, dmi: 8.15, tdn: 65.35, protein: 1166 },
+{ bw: 330, adg: 0.7, dmi: 8.24, tdn: 65.32, protein: 1171.6 },
+{ bw: 335, adg: 0.7, dmi: 8.33, tdn: 65.29, protein: 1177.2 },
+{ bw: 340, adg: 0.7, dmi: 8.42, tdn: 65.26, protein: 1182.8 },
+{ bw: 345, adg: 0.7, dmi: 8.51, tdn: 65.23, protein: 1188.4 },
+{ bw: 350, adg: 0.7, dmi: 8.60, tdn: 65.20, protein: 1210 },
+{ bw: 300, adg: 0.8, dmi: 7.70, tdn: 68.10, protein: 1178 },
+{ bw: 305, adg: 0.8, dmi: 7.79, tdn: 68.07, protein: 1183.2 },
+{ bw: 310, adg: 0.8, dmi: 7.88, tdn: 68.04, protein: 1188.4 },
+{ bw: 315, adg: 0.8, dmi: 7.97, tdn: 68.01, protein: 1193.6 },
+{ bw: 320, adg: 0.8, dmi: 8.06, tdn: 67.98, protein: 1198.8 },
+{ bw: 325, adg: 0.8, dmi: 8.15, tdn: 67.95, protein: 1204 },
+{ bw: 330, adg: 0.8, dmi: 8.24, tdn: 67.92, protein: 1209.2 },
+{ bw: 335, adg: 0.8, dmi: 8.33, tdn: 67.89, protein: 1214.4 },
+{ bw: 340, adg: 0.8, dmi: 8.42, tdn: 67.86, protein: 1219.6 },
+{ bw: 345, adg: 0.8, dmi: 8.51, tdn: 67.83, protein: 1224.8 },
+{ bw: 350, adg: 0.8, dmi: 8.60, tdn: 67.80, protein: 1251 },
+{ bw: 300, adg: 0.9, dmi: 7.60, tdn: 70.90, protein: 1217 }
+{ bw: 305, adg: 0.9, dmi: 7.69, tdn: 70.87, protein: 1223.3 }
+{ bw: 310, adg: 0.9, dmi: 7.78, tdn: 70.84, protein: 1229.6 }
+{ bw: 315, adg: 0.9, dmi: 7.87, tdn: 70.81, protein: 1235.9 }
+{ bw: 320, adg: 0.9, dmi: 7.96, tdn: 70.78, protein: 1242.2 }
+{ bw: 325, adg: 0.9, dmi: 8.05, tdn: 70.75, protein: 1248.5 }
+{ bw: 330, adg: 0.9, dmi: 8.14, tdn: 70.72, protein: 1254.8 }
+{ bw: 335, adg: 0.9, dmi: 8.23, tdn: 70.69, protein: 1261.1 }
+{ bw: 340, adg: 0.9, dmi: 8.32, tdn: 70.66, protein: 1267.4 }
+{ bw: 345, adg: 0.9, dmi: 8.41, tdn: 70.63, protein: 1273.7 }
+{ bw: 350, adg: 0.9, dmi: 8.50, tdn: 70.60, protein: 1292 }
+{ bw: 355, adg: 0.3, dmi: 8.69, dmi: 56.17, protein: 1027.7 }
+{ bw: 360, adg: 0.3, dmi: 8.78, tdn: 56.14, protein: 1034.4 }
+{ bw: 365, adg: 0.3, dmi: 8.87, tdn: 56.11, protein: 1041.1 }
+{ bw: 370, adg: 0.3, dmi: 8.96, tdn: 56.08, protein: 1047.8 }
+{ bw: 375, adg: 0.3, dmi: 9.05, tdn: 56.05, protein: 1054.5 }
+{ bw: 380, adg: 0.3, dmi: 9.14, tdn: 56.02, protein: 1061.2 }
+{ bw: 385, adg: 0.3, dmi: 9.23, tdn: 55.99, protein: 1067.9 }
+{ bw: 390, adg: 0.3, dmi: 9.32, tdn: 55.96, protein: 1074.6 }
+{ bw: 395, adg: 0.3, dmi: 9.41, tdn: 55.93, protein: 1081.3 }
+{ bw: 400, adg: 0.3, dmi: 9.50, tdn: 55.90, protein: 1088 }
+{ bw: 355, adg: 0.4, dmi: 8.69, tdn: 58.27, protein: 1078 }
+{ bw: 360, adg: 0.4, dmi: 8.78, tdn: 58.24, protein: 1084.4 }
+{ bw: 365, adg: 0.4, dmi: 8.87, tdn: 58.21, protein: 1090.8 }
+{ bw: 370, adg: 0.4, dmi: 8.96, tdn: 58.18, protein: 1097.2 }
+{ bw: 375, adg: 0.4, dmi: 9.05, tdn: 58.15, protein: 1103.6 }
+{ bw: 380, adg: 0.4, dmi: 9.14, tdn: 58.12, protein: 1110 }
+{ bw: 385, adg: 0.4, dmi: 9.23, tdn: 58.09, protein: 1116.4 }
+{ bw: 390, adg: 0.4, dmi: 9.32, tdn: 58.06, protein: 1122.8 }
+{ bw: 395, adg: 0.4, dmi: 9.41, tdn: 58.03, protein: 1129.2 }
+{ bw: 400, adg: 0.4, dmi: 9.50, tdn: 58, protein: 1135.6 }
+{ bw: 355, adg: 0.5, dmi: 8.69, tdn: 60.47, protein: 1124 }
+{ bw: 360, adg: 0.5, dmi: 8.78, tdn: 60.44, protein: 1130 }
+{ bw: 365, adg: 0.5, dmi: 8.87, tdn: 60.41, protein: 1136 }
+{ bw: 370, adg: 0.5, dmi: 8.96, tdn: 60.38, protein: 1142 }
+{ bw: 375, adg: 0.5, dmi: 9.05, tdn: 60.35, protein: 1148 }
+{ bw: 380, adg: 0.5, dmi: 9.14, tdn: 60.32, protein: 1154 }
+{ bw: 385, adg: 0.5, dmi: 9.23, tdn: 60.29, protein: 1160 }
+{ bw: 390, adg: 0.5, dmi: 9.32, tdn: 60.26, protein: 1166 }
+{ bw: 395, adg: 0.5, dmi: 9.41, tdn: 60.23, protein: 1172 }
+{ bw: 400, adg: 0.5, dmi: 9.50, tdn: 60.20, protein: 1178 }
+{ bw: 355, adg: 0.6, dmi: 8.69, tdn: 62.77, protein: 1168.4 }
+{ bw: 360, adg: 0.6, dmi: 8.78, tdn: 62.74, protein: 1174.6 }
+{ bw: 365, adg: 0.6, dmi: 8.87, tdn: 62.71, protein: 1180.8 }
+{ bw: 370, adg: 0.6, dmi: 8.96, tdn: 62.68, protein: 1187 }
+{ bw: 375, adg: 0.6, dmi: 9.05, tdn: 62.65, protein: 1193.2 }
+{ bw: 380, adg: 0.6, dmi: 9.14, tdn: 62.62, protein: 1199.4 }
+{ bw: 385, adg: 0.6, dmi: 9.23, tdn: 62.59, protein: 1205.6 }
+{ bw: 390, adg: 0.6, dmi: 9.32, tdn: 62.56, protein: 1211.8 }
+{ bw: 395, adg: 0.6, dmi: 9.41, tdn: 62.53, protein: 1218 }
+{ bw: 400, adg: 0.6, dmi: 9.50, tdn: 62.50, protein: 1224 }
+{ bw: 355, adg: 0.7, dmi: 8.69, tdn: 65.07, protein: 1212.8 }
+{ bw: 360, adg: 0.7, dmi: 8.78, tdn: 65.04, protein: 1218.4 }
+{ bw: 365, adg: 0.7, dmi: 8.87, tdn: 65.01, protein: 1224 }
+{ bw: 370, adg: 0.7, dmi: 8.96, tdn: 64.98, protein: 1229.6 }
+{ bw: 375, adg: 0.7, dmi: 9.05, tdn: 64.95, protein: 1235.2 }
+{ bw: 380, adg: 0.7, dmi: 9.14, tdn: 64.92, protein: 1240.8 }
+{ bw: 385, adg: 0.7, dmi: 9.23, tdn: 64.89, protein: 1246.4 }
+{ bw: 390, adg: 0.7, dmi: 9.32, tdn: 64.86, protein: 1252 }
+{ bw: 395, adg: 0.7, dmi: 9.41, tdn: 64.83, protein: 1257.6 }
+{ bw: 400, adg: 0.7, dmi: 9.50, tdn: 64.80, protein: 1263.2 }
+{ bw: 355, adg: 0.8, dmi: 8.69, tdn: 67.57, protein: 1252 }
+{ bw: 360, adg: 0.8, dmi: 8.78, tdn: 67.54, protein: 1257.6 }
+{ bw: 365, adg: 0.8, dmi: 8.87, tdn: 67.51, protein: 1263.2 }
+{ bw: 370, adg: 0.8, dmi: 8.96, tdn: 67.48, protein: 1268.8 }
+{ bw: 375, adg: 0.8, dmi: 9.05, tdn: 67.45, protein: 1274.4 }
+{ bw: 380, adg: 0.8, dmi: 9.14, tdn: 67.42, protein: 1280 }
+{ bw: 385, adg: 0.8, dmi: 9.23, tdn: 67.39, protein: 1285.6 }
+{ bw: 390, adg: 0.8, dmi: 9.32, tdn: 67.36, protein: 1291.2 }
+{ bw: 395, adg: 0.8, dmi: 9.41, tdn: 67.33, protein: 1296.8 }
+{ bw: 400, adg: 0.8, dmi: 9.50, tdn: 67.30, protein: 1302.4 }
+{ bw: 355, adg: 0.9, dmi: 8.58, tdn: 70.27, protein: 1291.4 }
+{ bw: 360, adg: 0.9, dmi: 8.67, tdn: 70.24, protein: 1297.1 }
+{ bw: 365, adg: 0.9, dmi: 8.76, tdn: 70.21, protein: 1302.8 }
+{ bw: 370, adg: 0.9, dmi: 8.85, tdn: 70.18, protein: 1308.5 }
+{ bw: 375, adg: 0.9, dmi: 8.94, tdn: 70.15, protein: 1314.2 }
+{ bw: 380, adg: 0.9, dmi: 9.03, tdn: 70.12, protein: 1319.9 }
+{ bw: 385, adg: 0.9, dmi: 9.12, tdn: 70.09, protein: 1325.6 }
+{ bw: 390, adg: 0.9, dmi: 9.21, tdn: 70.06, protein: 1331.3 }
+{ bw: 395, adg: 0.9, dmi: 9.30, tdn: 70.03, protein: 1337 }
+{ bw: 400, adg: 0.9, dmi: 9.39, tdn: 70, protein: 1342.7 }
+{ bw: 405, adg: 0.3, dmi: 9.59, tdn: 55.87, protein: 1094.7 }
+{ bw: 410, adg: 0.3, dmi: 9.68, tdn: 55.84, protein: 1101.4 }
+{ bw: 415, adg: 0.3, dmi: 9.77, tdn: 55.81, protein: 1108.1 }
+{ bw: 420, adg: 0.3, dmi: 9.86, tdn: 55.78, protein: 1114.8 }
+{ bw: 425, adg: 0.3, dmi: 9.95, tdn: 55.75, protein: 1121.5 }
+{ bw: 430, adg: 0.3, dmi: 10.04, tdn: 55.72, protein: 1128.2 }
+{ bw: 435, adg: 0.3, dmi: 10.13, tdn: 55.69, protein: 1134.9 }
+{ bw: 440, adg: 0.3, dmi: 10.22, tdn: 55.66, protein: 1141.6 }
+{ bw: 445, adg: 0.3, dmi: 10.31, tdn: 55.63, protein: 1148.3 }
+{ bw: 450, adg: 0.3, dmi: 10.40, tdn: 55.60, protein: 1155 }
+{ bw: 405, adg: 0.4, dmi: 9.59, tdn: 57.97, protein: 1149.3 }
+{ bw: 410, adg: 0.4, dmi: 9.68, tdn: 57.94, protein: 1155.9 }
+{ bw: 415, adg: 0.4, dmi: 9.77, tdn: 57.91, protein: 1162.5 }
+{ bw: 420, adg: 0.4, dmi: 9.86, tdn: 57.88, protein: 1169.1 }
+{ bw: 425, adg: 0.4, dmi: 9.95, tdn: 57.85, protein: 1175.7 }
+{ bw: 430, adg: 0.4, dmi: 10.04, tdn: 57.82, protein: 1182.3 }
+{ bw: 435, adg: 0.4, dmi: 10.13, tdn: 57.79, protein: 1188.9 }
+{ bw: 440, adg: 0.4, dmi: 10.22, tdn: 57.76, protein: 1195.5 }
+{ bw: 445, adg: 0.4, dmi: 10.31, tdn: 57.73, protein: 1202.1 }
+{ bw: 450, adg: 0.4, dmi: 10.40, tdn: 57.70, protein: 1208.7 }
+{ bw: 405, adg: 0.5, dmi: 9.59, tdn: 60.17, protein: 1197 }
+{ bw: 410, adg: 0.5, dmi: 9.68, tdn: 60.14, protein: 1203 }
+{ bw: 415, adg: 0.5, dmi: 9.77, tdn: 60.11, protein: 1209 }
+{ bw: 420, adg: 0.5, dmi: 9.86, tdn: 60.08, protein: 1215 }
+{ bw: 425, adg: 0.5, dmi: 9.95, tdn: 60.05, protein: 1221 }
+{ bw: 430, adg: 0.5, dmi: 10.04, tdn: 60.02, protein: 1227 }
+{ bw: 435, adg: 0.5, dmi: 10.13, tdn: 59.99, protein: 1233 }
+{ bw: 440, adg: 0.5, dmi: 10.22, tdn: 59.96, protein: 1239 }
+{ bw: 445, adg: 0.5, dmi: 10.31, tdn: 59.93, protein: 1245 }
+{ bw: 450, adg: 0.5, dmi: 10.40, tdn: 59.90, protein: 1251 }
+{ bw: 405, adg: 0.6, dmi: 9.59, tdn: 62.47, protein: 1243.4 }
+{ bw: 410, adg: 0.6, dmi: 9.68, tdn: 62.44, protein: 1249.4 }
+{ bw: 415, adg: 0.6, dmi: 9.77, tdn: 62.41, protein: 1255.4 }
+{ bw: 420, adg: 0.6, dmi: 9.86, tdn: 62.38, protein: 1261.4 }
+{ bw: 425, adg: 0.6, dmi: 9.95, tdn: 62.35, protein: 1267.4 }
+{ bw: 430, adg: 0.6, dmi: 10.04, tdn: 62.32, protein: 1273.4 }
+{ bw: 435, adg: 0.6, dmi: 10.13, tdn: 62.29, protein: 1279.4 }
+{ bw: 440, adg: 0.6, dmi: 10.22, tdn: 62.26, protein: 1285.4 }
+{ bw: 445, adg: 0.6, dmi: 10.31, tdn: 62.23, protein: 1291.4 }
+{ bw: 450, adg: 0.6, dmi: 10.40, tdn: 62.20, protein: 1297.4 }
+{ bw: 405, adg: 0.7, dmi: 9.59, tdn: 64.77, protein: 1287.8 }
+{ bw: 410, adg: 0.7, dmi: 9.68, tdn: 64.74, protein: 1293.4 }
+{ bw: 415, adg: 0.7, dmi: 9.77, tdn: 64.71, protein: 1299 }
+{ bw: 420, adg: 0.7, dmi: 9.86, tdn: 64.68, protein: 1304.6 }
+{ bw: 425, adg: 0.7, dmi: 9.95, tdn: 64.65, protein: 1310.2 }
+{ bw: 430, adg: 0.7, dmi: 10.04, tdn: 64.62, protein: 1315.8 }
+{ bw: 435, adg: 0.7, dmi: 10.13, tdn: 64.59, protein: 1321.4 }
+{ bw: 440, adg: 0.7, dmi: 10.22, tdn: 64.56, protein: 1327 }
+{ bw: 445, adg: 0.7, dmi: 10.31, tdn: 64.53, protein: 1332.6 }
+{ bw: 450, adg: 0.7, dmi: 10.40, tdn: 64.50, protein: 1338.2 }
+{ bw: 405, adg: 0.8, dmi: 9.59, tdn: 67.27, protein: 1327 }
+{ bw: 410, adg: 0.8, dmi: 9.68, tdn: 67.24, protein: 1332.6 }
+{ bw: 415, adg: 0.8, dmi: 9.77, tdn: 67.21, protein: 1338.2 }
+{ bw: 420, adg: 0.8, dmi: 9.86, tdn: 67.18, protein: 1343.8 }
+{ bw: 425, adg: 0.8, dmi: 9.95, tdn: 67.15, protein: 1349.4 }
+{ bw: 430, adg: 0.8, dmi: 10.04, tdn: 67.12, protein: 1355 }
+{ bw: 435, adg: 0.8, dmi: 10.13, tdn: 67.09, protein: 1360.6 }
+{ bw: 440, adg: 0.8, dmi: 10.22, tdn: 67.06, protein: 1366.2 }
+{ bw: 445, adg: 0.8, dmi: 10.31, tdn: 67.03, protein: 1371.8 }
+{ bw: 450, adg: 0.8, dmi: 10.40, tdn: 67, protein: 1377.4 }
+{ bw: 405, adg: 0.9, dmi: 9.48, tdn: 69.97, protein: 1366.4 }
+{ bw: 410, adg: 0.9, dmi: 9.57, tdn: 69.94, protein: 1372.1 }
+{ bw: 415, adg: 0.9, dmi: 9.66, tdn: 69.91, protein: 1377.8 }
+{ bw: 420, adg: 0.9, dmi: 9.75, tdn: 69.88, protein: 1383.5 }
+{ bw: 425, adg: 0.9, dmi: 9.84, tdn: 69.85, protein: 1389.2 }
+{ bw: 430, adg: 0.9, dmi: 9.93, tdn: 69.82, protein: 1394.9 }
+{ bw: 435, adg: 0.9, dmi: 10.02, tdn: 69.79, protein: 1400.6 }
+{ bw: 440, adg: 0.9, dmi: 10.11, tdn: 69.76, protein: 1406.3 }
+{ bw: 445, adg: 0.9, dmi: 10.20, tdn: 69.73, protein: 1412 }
+{ bw: 450, adg: 0.9, dmi: 10.29, tdn: 69.70, protein: 1417.7 }
+{ bw: 455, adg: 0.3, dmi: 10.49, tdn: 55.57, protein: 1161.7 }
+{ bw: 460, adg: 0.3, dmi: 10.58, tdn: 55.54, protein: 1168.4 }
+{ bw: 465, adg: 0.3, dmi: 10.67, tdn: 55.51, protein: 1175.1 }
+{ bw: 470, adg: 0.3, dmi: 10.76, tdn: 55.48, protein: 1181.8 }
+{ bw: 475, adg: 0.3, dmi: 10.85, tdn: 55.45, protein: 1188.5 }
+{ bw: 480, adg: 0.3, dmi: 10.94, tdn: 55.42, protein: 1195.2 }
+{ bw: 485, adg: 0.3, dmi: 11.03, tdn: 55.39, protein: 1201.9 }
+{ bw: 490, adg: 0.3, dmi: 11.12, tdn: 55.36, protein: 1208.6 }
+{ bw: 495, adg: 0.3, dmi: 11.21, tdn: 55.33, protein: 1215.3 }
+{ bw: 500, adg: 0.3, dmi: 11.30, tdn: 55.30, protein: 1222 }
+{ bw: 455, adg: 0.4, dmi: 10.49, tdn: 57.67, protein: 1215.4 }
+{ bw: 460, adg: 0.4, dmi: 10.58, tdn: 57.64, protein: 1222 }
+{ bw: 465, adg: 0.4, dmi: 10.67, tdn: 57.61, protein: 1228.6 }
+{ bw: 470, adg: 0.4, dmi: 10.76, tdn: 57.58, protein: 1235.2 }
+{ bw: 475, adg: 0.4, dmi: 10.85, tdn: 57.55, protein: 1241.8 }
+{ bw: 480, adg: 0.4, dmi: 10.94, tdn: 57.52, protein: 1248.4 }
+{ bw: 485, adg: 0.4, dmi: 11.03, tdn: 57.49, protein: 1255 }
+{ bw: 490, adg: 0.4, dmi: 11.12, tdn: 57.46, protein: 1261.6 }
+{ bw: 495, adg: 0.4, dmi: 11.21, tdn: 57.43, protein: 1268.2 }
+{ bw: 500, adg: 0.4, dmi: 11.30, tdn: 57.40, protein: 1274.8 }
+{ bw: 455, adg: 0.5, dmi: 10.49, tdn: 59.87, protein: 1262.6 }
+{ bw: 460, adg: 0.5, dmi: 10.58, tdn: 59.84, protein: 1269.2 }
+{ bw: 465, adg: 0.5, dmi: 10.67, tdn: 59.81, protein: 1275.8 }
+{ bw: 470, adg: 0.5, dmi: 10.76, tdn: 59.78, protein: 1282.4 }
+{ bw: 475, adg: 0.5, dmi: 10.85, tdn: 59.75, protein: 1289 }
+{ bw: 480, adg: 0.5, dmi: 10.94, tdn: 59.72, protein: 1295.6 }
+{ bw: 485, adg: 0.5, dmi: 11.03, tdn: 59.69, protein: 1302.2 }
+{ bw: 490, adg: 0.5, dmi: 11.12, tdn: 59.66, protein: 1308.8 }
+{ bw: 495, adg: 0.5, dmi: 11.21, tdn: 59.63, protein: 1315.4 }
+{ bw: 500, adg: 0.5, dmi: 11.30, tdn: 59.60, protein: 1322 }
+{ bw: 455, adg: 0.6, dmi: 10.49, tdn: 62.17, protein: 1309.2 }
+{ bw: 460, adg: 0.6, dmi: 10.58, tdn: 62.14, protein: 1315.8 }
+{ bw: 465, adg: 0.6, dmi: 10.67, tdn: 62.11, protein: 1322.4 }
+{ bw: 470, adg: 0.6, dmi: 10.76, tdn: 62.08, protein: 1329 }
+{ bw: 475, adg: 0.6, dmi: 10.85, tdn: 62.05, protein: 1335.6 }
+{ bw: 480, adg: 0.6, dmi: 10.94, tdn: 62.02, protein: 1342.2 }
+{ bw: 485, adg: 0.6, dmi: 11.03, tdn: 61.99, protein: 1348.8 }
+{ bw: 490, adg: 0.6, dmi: 11.12, tdn: 61.96, protein: 1355.4 }
+{ bw: 495, adg: 0.6, dmi: 11.21, tdn: 61.93, protein: 1362 }
+{ bw: 500, adg: 0.6, dmi: 11.30, tdn: 61.90, protein: 1368.6 }
+{ bw: 455, adg: 0.7, dmi: 10.49, tdn: 64.47, protein: 1353.6 }
+{ bw: 460, adg: 0.7, dmi: 10.58, tdn: 64.44, protein: 1360.2 }
+{ bw: 465, adg: 0.7, dmi: 10.67, tdn: 64.41, protein: 1366.8 }
+{ bw: 470, adg: 0.7, dmi: 10.76, tdn: 64.38, protein: 1373.4 }
+{ bw: 475, adg: 0.7, dmi: 10.85, tdn: 64.35, protein: 1380 }
+{ bw: 480, adg: 0.7, dmi: 10.94, tdn: 64.32, protein: 1386.6 }
+{ bw: 485, adg: 0.7, dmi: 11.03, tdn: 64.29, protein: 1393.2 }
+{ bw: 490, adg: 0.7, dmi: 11.12, tdn: 64.26, protein: 1399.8 }
+{ bw: 495, adg: 0.7, dmi: 11.21, tdn: 64.23, protein: 1406.4 }
+{ bw: 500, adg: 0.7, dmi: 11.30, tdn: 64.20, protein: 1413 }
+{ bw: 455, adg: 0.8, dmi: 10.49, tdn: 66.97, protein: 1392.8 }
+{ bw: 460, adg: 0.8, dmi: 10.58, tdn: 66.94, protein: 1399.4 }
+{ bw: 465, adg: 0.8, dmi: 10.67, tdn: 66.91, protein: 1406 }
+{ bw: 470, adg: 0.8, dmi: 10.76, tdn: 66.88, protein: 1412.6 }
+{ bw: 475, adg: 0.8, dmi: 10.85, tdn: 66.85, protein: 1419.2 }
+{ bw: 480, adg: 0.8, dmi: 10.94, tdn: 66.82, protein: 1425.8 }
+{ bw: 485, adg: 0.8, dmi: 11.03, tdn: 66.79, protein: 1432.4 }
+{ bw: 490, adg: 0.8, dmi: 11.12, tdn: 66.76, protein: 1439 }
+{ bw: 495, adg: 0.8, dmi: 11.21, tdn: 66.73, protein: 1445.6 }
+{ bw: 500, adg: 0.8, dmi: 11.30, tdn: 66.70, protein: 1452.2 }
+{ bw: 455, adg: 0.9, dmi: 10.38, tdn: 69.67, protein: 1432.2 }
+{ bw: 460, adg: 0.9, dmi: 10.47, tdn: 69.64, protein: 1438.9 }
+{ bw: 465, adg: 0.9, dmi: 10.56, tdn: 69.61, protein: 1445.6 }
+{ bw: 470, adg: 0.9, dmi: 10.65, tdn: 69.58, protein: 1452.3 }
+{ bw: 475, adg: 0.9, dmi: 10.74, tdn: 69.55, protein: 1459 }
+{ bw: 480, adg: 0.9, dmi: 10.83, tdn: 69.52, protein: 1465.7 }
+{ bw: 485, adg: 0.9, dmi: 10.92, tdn: 69.49, protein: 1472.4 }
+{ bw: 490, adg: 0.9, dmi: 11.01, tdn: 69.46, protein: 1479.1 }
+{ bw: 495, adg: 0.9, dmi: 11.10, tdn: 69.43, protein: 1485.8 }
+{ bw: 500, adg: 0.9, dmi: 11.19, tdn: 69.40, protein: 1492.5 }
+{ bw: 505, adg: 0.3, dmi: 11.39, tdn: 55.27, protein: 1228.7 }
+{ bw: 510, adg: 0.3, dmi: 11.48, tdn: 55.24, protein: 1235.4 }
+{ bw: 515, adg: 0.3, dmi: 11.57, tdn: 55.21, protein: 1242.1 }
+{ bw: 520, adg: 0.3, dmi: 11.66, tdn: 55.18, protein: 1248.8 }
+{ bw: 525, adg: 0.3, dmi: 11.75, tdn: 55.15, protein: 1255.5 }
+{ bw: 530, adg: 0.3, dmi: 11.84, tdn: 55.12, protein: 1262.2 }
+{ bw: 535, adg: 0.3, dmi: 11.93, tdn: 55.09, protein: 1268.9 }
+{ bw: 540, adg: 0.3, dmi: 12.02, tdn: 55.06, protein: 1275.6 }
+{ bw: 545, adg: 0.3, dmi: 12.11, tdn: 55.03, protein: 1282.3 }
+{ bw: 550, adg: 0.3, dmi: 12.20, tdn: 55, protein: 1289 }
+{ bw: 505, adg: 0.4, dmi: 11.39, tdn: 57.37, protein: 1285.4 }
+{ bw: 510, adg: 0.4, dmi: 11.48, tdn: 57.34, protein: 1292.1 }
+{ bw: 515, adg: 0.4, dmi: 11.57, tdn: 57.31, protein: 1298.8 }
+{ bw: 520, adg: 0.4, dmi: 11.66, tdn: 57.28, protein: 1305.5 }
+{ bw: 525, adg: 0.4, dmi: 11.75, tdn: 57.25, protein: 1312.2 }
+{ bw: 530, adg: 0.4, dmi: 11.84, tdn: 57.22, protein: 1318.9 }
+{ bw: 535, adg: 0.4, dmi: 11.93, tdn: 57.19, protein: 1325.6 },
+{ bw: 540, adg: 0.4, dmi: 12.02, tdn: 57.16, protein: 1332.3 ,}
+{ bw: 545, adg: 0.4, dmi: 12.11, tdn: 57.13, protein: 1339 },
+{ bw: 550, adg: 0.4, dmi: 12.20, tdn: 57.10, protein: 1345.7 },
+{ bw: 505, adg: 0.5, dmi: 11.39, tdn: 59.57, protein: 1333.6 },
+{ bw: 510, adg: 0.5, dmi: 11.48, tdn: 59.54, protein: 1340.3},
+{ bw: 515, adg: 0.5, dmi: 11.57, tdn: 59.51, protein: 1347 },
+{ bw: 520, adg: 0.5, dmi: 11.66, tdn: 59.48, protein: 1353.7 },
+{ bw: 525, adg: 0.5, dmi: 11.75, tdn: 59.45, protein: 1360.4 },
+{ bw: 530, adg: 0.5, dmi: 11.84, tdn: 59.42, protein: 1367.1 },
+{ bw: 535, adg: 0.5, dmi: 11.93, tdn: 59.39, protein: 1373.8 },
+{ bw: 540, adg: 0.5, dmi: 12.02, tdn: 59.36, protein: 1380.5 },
+{ bw: 545, adg: 0.5, dmi: 12.11, tdn: 59.33, protein: 1387.2 },
+{ bw: 550, adg: 0.5, dmi: 12.20, tdn: 59.30, protein: 1393.9 },
+{ bw: 505, adg: 0.6, dmi: 11.39, tdn: 61.87, protein: 1381.2 },
+{ bw: 510, adg: 0.6, dmi: 11.48, tdn: 61.84, protein: 1387.9 },
+{ bw: 515, adg: 0.6, dmi: 11.57, tdn: 61.81, protein: 1394.6 },
+{ bw: 520, adg: 0.6, dmi: 11.66, tdn: 61.78, protein: 1401.3 },
+{ bw: 525, adg: 0.6, dmi: 11.75, tdn: 61.75, protein: 1408 },
+{ bw: 530, adg: 0.6, dmi: 11.84, tdn: 61.72, protein: 1414.7 },
+{ bw: 535, adg: 0.6, dmi: 11.93, tdn: 61.69, protein: 1421.4 },
+{ bw: 540, adg: 0.6, dmi: 12.02, tdn: 61.66, protein: 1428.1 },
+  { "bw": 545, "adg": 0.7, "dmi": 12.11, "tdn": 63.93, "protein": 1479.2 },
+  { "bw": 550, "adg": 0.7, "dmi": 12.20, "tdn": 63.90, "protein": 1485.9 },
+
+  { "bw": 505, "adg": 0.8, "dmi": 11.39, "tdn": 66.67, "protein": 1464.8 },
+  { "bw": 510, "adg": 0.8, "dmi": 11.48, "tdn": 66.64, "protein": 1471.5 },
+  { "bw": 515, "adg": 0.8, "dmi": 11.57, "tdn": 66.61, "protein": 1478.2 },
+  { "bw": 520, "adg": 0.8, "dmi": 11.66, "tdn": 66.58, "protein": 1484.9 },
+  { "bw": 525, "adg": 0.8, "dmi": 11.75, "tdn": 66.55, "protein": 1491.6 },
+  { "bw": 530, "adg": 0.8, "dmi": 11.84, "tdn": 66.52, "protein": 1498.3 },
+  { "bw": 535, "adg": 0.8, "dmi": 11.93, "tdn": 66.49, "protein": 1505.0 },
+  { "bw": 540, "adg": 0.8, "dmi": 12.02, "tdn": 66.46, "protein": 1511.7 },
+  { "bw": 545, "adg": 0.8, "dmi": 12.11, "tdn": 66.43, "protein": 1518.4 },
+  { "bw": 550, "adg": 0.8, "dmi": 12.20, "tdn": 66.40, "protein": 1525.1 },
+
+  { "bw": 505, "adg": 0.9, "dmi": 11.28, "tdn": 69.37, "protein": 1494.2 },
+  { "bw": 510, "adg": 0.9, "dmi": 11.37, "tdn": 69.34, "protein": 1500.9 },
+  { "bw": 515, "adg": 0.9, "dmi": 11.46, "tdn": 69.31, "protein": 1507.6 },
+  { "bw": 520, "adg": 0.9, "dmi": 11.55, "tdn": 69.28, "protein": 1514.3 },
+  { "bw": 525, "adg": 0.9, "dmi": 11.64, "tdn": 69.25, "protein": 1521.0 },
+  { "bw": 530, "adg": 0.9, "dmi": 11.73, "tdn": 69.22, "protein": 1527.7 },
+  { "bw": 535, "adg": 0.9, "dmi": 11.82, "tdn": 69.19, "protein": 1534.4 },
+  { "bw": 540, "adg": 0.9, "dmi": 11.91, "tdn": 69.16, "protein": 1541.1 },
+  { "bw": 545, "adg": 0.9, "dmi": 12.00, "tdn": 69.13, "protein": 1547.8 },
+  { "bw": 550, "adg": 0.9, "dmi": 12.09, "tdn": 69.10, "protein": 1554.5 },
+
+]
+
+]
+
+];
